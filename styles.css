@@ -397,12 +397,17 @@ footer a{
     width: auto;
     padding: 0px 15px 0px 15px;
 }
+
+.hero h1 {
+    font-size: 40px;
+}
+
   .hero{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
     
   }
 
@@ -414,6 +419,16 @@ footer a{
     flex-direction: column;
     max-width: 100%;
   }
+
+  #experiencia h2 {
+    font-size: 26px;
+   
+}
+
+#proyectos h2 {
+    font-size: 26px;
+   
+}
 
   .lugar{
     width: auto;
