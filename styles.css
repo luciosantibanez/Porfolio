@@ -383,3 +383,94 @@ footer a{
     margin: 0px 10px 0 10px;
     font-size: 14px;
 }
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 480px) {
+  body.dark-mode{
+    max-width: 90vw;
+    margin: auto;
+  }
+
+  .navbar {
+    width: auto;
+    padding: 0px 15px 0px 15px;
+}
+  .hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .hero p{
+    max-width: 100%;
+  }
+
+  #experiencia .experiencias{
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .lugar{
+    width: auto;
+  }
+
+  .descripcion {
+    width: auto;
+    margin-top: 20px;
+}
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .contenidoProyecto {
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 95vw;
+}
+
+#proyectos .img img {
+    width: 95vw;
+}
+
+#proyectos .logo p {
+    margin-right: 5px;
+}
+
+#sobreMi p {
+    
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+}
+
+#sobreMi div img {
+    height: 40px;
+    margin: 7px;
+}
+
+div.tecnologias{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+#sobreMi h2 {
+    font-size: 26px;
+}
+}
