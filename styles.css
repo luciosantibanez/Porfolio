@@ -450,7 +450,7 @@ footer a{
     margin-left: 0px;
     margin-top: 15px;
     margin-bottom: 15px;
-    max-width: 95vw;
+    width: 90vw;
 }
 
 #proyectos .img img {
